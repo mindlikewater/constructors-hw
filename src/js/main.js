@@ -1,6 +1,6 @@
 import {it, expect} from "./test_lib";
 import { Dog } from "./constructors/dog";
-import { Person } from "./constructors/person";
+import { Person as Human } from "./constructors/person";
 
 // Uncomment the line below for Hard Mode
 // Only do this *AFTER* the Normal Mode is finished!
@@ -39,7 +39,11 @@ it("should make Sadie black", function(){
   expect(sadie.color).toBe('black');
 });
 
-it("should be make Moonshine hungry and Sadie not hungry", function() {
+it("should make moonshine blue-red", function(){
+  expect(moonshine.color).toBe('blue-red');
+});
+
+it("should make Moonshine hungry and Sadie not hungry", function() {
   expect(moonshine.hungry).toBe(true);
   expect(sadie.hungry).toBe(false);
 });
