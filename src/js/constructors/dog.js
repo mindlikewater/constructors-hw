@@ -3,6 +3,7 @@ function Dog (options) {
 
   this.status = "normal";
   this.color = opts.color;
+  this.hungry = opts.hungry;
 }
 
 export { Dog };
