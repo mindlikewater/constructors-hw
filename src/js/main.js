@@ -59,7 +59,7 @@ it("should not affect Atticus and Moonshine's owner properties when setting Maso
   expect(atticus.owner).toBe(undefined);
 });
 
- it("should make Julia cool and Mason not cool", function() {
+ it("should make Laura cool and Mason not cool", function() {
   sadie.owner = mason;
   expect(laura.cool).toBe(true);
   expect(mason.cool).toBe(false);
