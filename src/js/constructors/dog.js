@@ -4,6 +4,12 @@ function Dog (options) {
   this.status = "normal";
   this.color = opts.color;
   this.hungry = opts.hungry;
+
+  if (this.hungry !== false) {
+    this.hungry = true;
+  }
+
+
 }
 
 export { Dog };
